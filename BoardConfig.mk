@@ -28,8 +28,8 @@ TARGET_OTA_ASSERT_DEVICE := titan,titan_umts,titan_udstv,titan_umtsds,titan_reta
 
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/mkbootimg.mk
-TARGET_KERNEL_SOURCE := kernel/motorola/titan
-TARGET_KERNEL_CONFIG := titan_defconfig
+TARGET_KERNEL_SOURCE := kernel/motorola/msm8226
+TARGET_KERNEL_CONFIG := titan_ubuntu_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 10444800
