@@ -18,7 +18,7 @@
 $(call inherit-product-if-exists, vendor/motorola/titan/titan-vendor.mk)
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+#DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
